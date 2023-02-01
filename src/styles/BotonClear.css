@@ -1,0 +1,19 @@
+.boton-clear{
+    height: 80px;
+    font-size: 20px;
+    background-color: rgb(248, 123, 7);
+    display: flex;
+    flex: 1;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+    /* para que no pueda copiarse el texto del button */
+    user-select: none;
+    border: white 1px solid;
+}
+.boton-clear:hover{
+    background-color: rgba(207, 240, 19, 0.904);
+}
